@@ -1,2 +1,0 @@
-# Trustless survey data credibility
-
