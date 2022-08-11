@@ -1,6 +1,6 @@
 # GraphQL API
 
-All the forms and submissions reside on \[Arweave]\([https://www.arweave.org/](https://www.arweave.org/)), a decentralized storage network. You can retrieve forms and submissions using \[Arweave's GraphQL API endpoint]\([https://arweave.net/graphql](https://arweave.net/graphql)), with parameters described below. Alternatively, you can use \[arweave-js]\([https://github.com/ArweaveTeam/arweave-js](https://github.com/ArweaveTeam/arweave-js)) to query using JavaScript.
+All the forms and submissions reside on [Arweave](http://arweave.org), a decentralized storage network. You can retrieve forms and submissions using [Arweave's GraphQL API endpoint](https://arweave.net/graphql), with parameters described below. Alternatively, you can use [arweave-js](https://github.com/ArweaveTeam/arweave-js) to query using JavaScript.
 
 
 
@@ -9,7 +9,7 @@ You can use the following tags in combination to filter data.
 * App-Name: StorForm-dev
 * Type: Form | Submission
 * Form-Id: \[formId]
-* SubmissionId: \[submissionId
+* Submission-Id: \[submissionId
 
 
 
@@ -52,7 +52,7 @@ Variables
     {
       "name": "Type",
       "values": [
-        "submission"
+        "Submission"
       ],
       "op": "EQ"
     }

@@ -1,8 +1,6 @@
----
-description: Zk Surv
----
-
 # Introducing Storyform
+
+
 
 {% hint style="warning" %}
 The smart contracts nor the circuits are audited. Storyform is not a production-ready product.
