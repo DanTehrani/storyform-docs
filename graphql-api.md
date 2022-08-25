@@ -2,18 +2,12 @@
 
 All the forms and submissions reside on [Arweave](http://arweave.org), a decentralized storage network. You can retrieve forms and submissions using [Arweave's GraphQL API endpoint](https://arweave.net/graphql), with parameters described below. Alternatively, you can use [arweave-js](https://github.com/ArweaveTeam/arweave-js) to query using JavaScript.
 
-
-
 You can use the following tags in combination to filter data.
 
-* App-Name: StorForm-dev
+* App-Name: Storyform
 * Type: Form | Submission
 * Form-Id: \[formId]
-* Submission-Id: \[submissionId
-
-
-
-For example, you can retrieve the first 10 submissions of a form as follows:
+* For example, you can retrieve the first 10 submissions of a form as follows:
 
 Query
 
@@ -38,7 +32,7 @@ Variables
     {
       "name": "App-Id",
       "values": [
-        "StoryForm-dev"
+        "StoryForm"
       ],
       "op": "EQ"
     },
@@ -59,6 +53,3 @@ Variables
   ]
 }
 ```
-
-
-
