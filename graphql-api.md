@@ -17,10 +17,6 @@ query transactions($first: Int!, $after: String, $tags: [TagFilter!]) {
     edges {
       node {
         id
-        tags {
-            name
-            value
-        }
       }
     }
   }
@@ -36,14 +32,14 @@ Variables
     {
       "name": "App-Id",
       "values": [
-        "Storyform"
+        "StoryForm"
       ],
       "op": "EQ"
     },
     {
       "name": "Form-Id",
       "values": [
-        "0x0b68bb57437fcc55850af68abe42cc45c72e2ec3030fa6074d44a43af51442c1"
+        "e9bdca2f07515aafeeab712bef57d79097f78a6ef43869994b9712b9bf8dbbcf"
       ],
       "op": "EQ"
     },
