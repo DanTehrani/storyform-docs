@@ -17,6 +17,10 @@ query transactions($first: Int!, $after: String, $tags: [TagFilter!]) {
     edges {
       node {
         id
+        tags {
+            name
+            value
+        }
       }
     }
   }
